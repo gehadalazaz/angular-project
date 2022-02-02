@@ -1,0 +1,11 @@
+<div class="header">
+<app-topnavbar></app-topnavbar>
+<!-- addedProducts is a member variable -->
+<!-- <app-navbar [theAddedProducts]="addedProducts" (itemDeleted)="itemIsDeleted($event)"  > </app-navbar> -->
+<app-navbar></app-navbar>
+</div>
+<!-- <div [ngSwitch]="'route'">
+<app-product-list-container *ngSwitchCase="'home'" ></app-product-list-container>
+<app-product-detalis *ngSwitchCase="'product-details'"></app-product-detalis>
+</div> -->
+<router-outlet></router-outlet>
